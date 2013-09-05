@@ -10,44 +10,78 @@
 	font-weight: bold;
 }
 .ABSTRACT {font-size: 16px}
-.STYLE9 {font-family: "宋体"}
 .STYLE11 {font-size: 36px; font-weight: bold; }
 body {
 	background-color: #E3F1FD;
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
 }
 .STYLE12 {font-size: x-large; font-weight: bold; color: #666666; }
-.STYLE14 {color: #990000}
+.STYLE22 {font-family: "宋体"}
 -->
 </style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
 </head>
 
-<body>
+<body onload="MM_preloadImages('images/cool_stuff_button1.png')">
+<p class="STYLE11">Weilun Sun (<span class="STYLE22">孙伟伦</span>)</p>
 <p><img src="images/me.jpg" width="259" height="307" /></p>
-<p><span class="STYLE11">Weilun Sun (<span class="STYLE9">孙伟伦</span>)</span></p>
-<table width="931">
+<p><img src="images/arrow.png" alt="" name="arrow" width="32" height="32" align="absmiddle" id="arrow" />
+    <span class="STYLE12">WHO AM I? </span></p>
+<p>I am an undergraduate student in <a href="http://www.cs.tsinghua.edu.cn/en/">Department of Computer Science and Technology</a> at  Tsinghua University. I am currently working in Graphics and Geometric Computing Group under the guidance of my mentor <a href="http://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a>. my CV is <a href="data/CV.pdf">Here</a>. </p>
+<p><a href="cool_stuffs.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image7','','images/cool_stuff_button1.png',1)"><img src="images/cool_stuff_button0.png" name="Image7" width="256" height="48" border="0" id="Image7" /></a></p>
+<p><img src="images/arrow.png" alt="a" name="arrow" width="32" height="32" align="absmiddle" id="arrow" /><span class="STYLE12">CONTACT ME </span></p>
+<p>Email: sunweilunjwilson@gmail.com</p>
+<p>Adress: Room 317B, Zijing #2, Tsinghua University, Beijing, P.R.China</p>
+<p class="STYLE12"><img src="images/arrow.png" alt="a" name="arrow" width="32" height="32" align="absmiddle" id="arrow" />PUBLICATIONS</p>
+<table width="1317" border="1" bordercolor="#999999">
   <tr>
-    <td width="124" height="88"><span class="STYLE14">About me</span> </td>
-    <td width="791"><p>I am an undergraduate student in <a href="http://www.cs.tsinghua.edu.cn/en/">Department of Computer Science and Technology</a> at  Tsinghua University. Computer Graphics is currently my favorite research field. I am now working in Graphics and Geometric Computing Group under the guidance of my mentor <a href="http://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a>. my CV is <a href="data/CV.pdf">Here</a>. </p>    </td>
-  </tr>
-  <tr>
-    <td height="61"><span class="STYLE14">Contact info </span></td>
-    <td><p>Email: sunweilunjwilson@gmail.com</p>
-    <p>Adress: Room 317B, Zijing #2, Tsinghua University, Beijing, P.R.China </p></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<p class="STYLE12">PUBLICATIONS</p>
-<table width="1317" border="1" bordercolor="#FF9900">
-  <tr>
-    <td width="318"><div align="center"><span class="ABSTRACT"><span class="STYLE1"><a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/"><img src="images/sketch2scene_thumb.jpg" width="295" height="295" /></a></span></span></div></td>
+    <td width="318"><div align="center"><img src="images/paper/asg_thumb.png" width="400" height="320" /></div></td>
     <td width="983"><blockquote>
-      <p align="left" class="ABSTRACT"><strong>Sketch2Scene: Sketch-based Co-retrieval and Co-placement of 3D Models</strong><br />
-          <a href="http://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a>, Kang Chen, <a href="http://sweb.cityu.edu.hk/hongbofu/">Hongbo Fu</a>, Wei-Lun Sun, <a href="http://cg.cs.tsinghua.edu.cn/prof_hu.htm">Shi-Min Hu</a></p>
-      <p align="left">Accepted by Siggraph 2013. <span class="STYLE1"><br />
-              <br />
-              </span><span class="ABSTRACT">This work presents Sketch2Scene, a framework that automatically turns a freehand sketch drawing inferring multiple scene objects to semantically valid, well arranged scenes of 3D models. Unlike the existing works on sketch-based search and composition of 3D models, which typically process individual sketched objects one by one, our technique performs co-retrieval and co-placement of 3D relevant models by jointly processing the sketched objects. This is enabled by summarizing functional and spatial relationships among models in a large collection of 3D scenes as structural groups. Our technique greatly reduces the amount of user intervention needed for sketch-based modeling of 3D scenes and fits well into the traditional production pipeline involving concept design followed by 3D modeling. A pilot study indicates that it is promising to use our technique as analternative but more efficient tool of standard 3D modeling for 3D scene construction. </span><span class="STYLE1"><br />
-          <br />
-                      </span><span class="ABSTRACT"><a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/">[project page]</a> [ <a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/sketch2scene_paper.pdf">paper 6.1M</a> ] [ pptx ] [<a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/sketch2scene_supplemental_document.pdf">supplemental 4.4M </a>] [ <a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/[SIG13][sketch2scene].avi">video 12.5M</a> ] [ bibtex ]</span></p>
+      <p class="ABSTRACT">Anisotropic Spherical Gaussians<br />
+        <a href="http://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a>, Wei-Lun Sun, <a href="http://www.graphics.cornell.edu/~zd/">Zhao Dong</a>, Dan-Yong Zhao, Run-Dong Wu, <a href="http://cg.cs.tsinghua.edu.cn/prof_hu.htm">Shi-Min Hu</a><br />
+        Conditionally Accepted by Siggraph Asia 2013.<br />
+        <br />
+        We present a novel <strong><em>anisotropic Spherical Gaussian</em></strong> (ASG) function, built upon the Bingham distribution [Bingham 1974], which is much more effective and efficient in representing anisotropic spherical functions than Spherical Gaussians (SGs). In addition to retaining many desired properties of SGs, ASGs are also rotationally invariant and capable of representing all-frequency signals. To further strengthen the properties of ASGs, we have derived approximate closed-form solutions for their integral, product and convolution operators, whose errors are nearly negligible, as validated by quantitative analysis. Supported by all these operators, ASGs can be adapted in existing SG-based applications to enhance their scalability in handling anisotropic effects. To demonstrate the accuracy and efficiency of ASGs in practice, we have applied ASGs in two important SG-based rendering applications and the experimental results clearly reveal the merits of ASGs. <br />
+        <br />
+        [project page] [ paper ] [supplemental] [ video ] [ bibtex ]</p>
+    </blockquote></td>
+  </tr>
+  <tr>
+    <td><div align="center"><span class="ABSTRACT"><span class="STYLE1"><a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/"><img src="images/paper/sketch2scene_thumb.jpg" width="400" height="400" border="0" /></a></span></span></div></td>
+    <td><blockquote>
+      <p align="left" class="ABSTRACT">Sketch2Scene: Sketch-based Co-retrieval and Co-placement of 3D Models<br />
+          <a href="http://cg.cs.tsinghua.edu.cn/people/~kun/">Kun Xu</a>, Kang Chen, <a href="http://sweb.cityu.edu.hk/hongbofu/">Hongbo Fu</a>, Wei-Lun Sun, <a href="http://cg.cs.tsinghua.edu.cn/prof_hu.htm">Shi-Min Hu</a><br />
+        ACM Transactions on Graphics 32(4), 123:1--123:12, 2013. (Proceedings of SIGGRAPH 2013). <br />
+        <br />
+        This work presents <em><strong>Sketch2Scene</strong></em>, a framework that automatically turns a freehand sketch drawing inferring multiple scene objects to semantically valid, well arranged scenes of 3D models. Unlike the existing works on sketch-based search and composition of 3D models, which typically process individual sketched objects one by one, our technique performs co-retrieval and co-placement of 3D relevant models by jointly processing the sketched objects. This is enabled by summarizing functional and spatial relationships among models in a large collection of 3D scenes as structural groups. Our technique greatly reduces the amount of user intervention needed for sketch-based modeling of 3D scenes and fits well into the traditional production pipeline involving concept design followed by 3D modeling. A pilot study indicates that it is promising to use our technique as an alternative but more efficient tool of standard 3D modeling for 3D scene construction. <br />
+        <br />
+        <a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/">[project page]</a> [ <a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/sketch2scene_paper.pdf">paper 6.1M</a> ] [ <a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/sketch2scene_ppt_no_video.pptx">pptx 33.0M </a>] [<a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/sketch2scene_supplemental_document.pdf">supplemental 4.4M </a>] [ <a href="http://cg.cs.tsinghua.edu.cn/sketch2scene/[SIG13][sketch2scene].avi">video 12.5M</a> ] [ <a href="javascript:" onclick="bibtex_display(this,8);">bibtex</a> ]</p>
     </blockquote></td>
   </tr>
 </table>
