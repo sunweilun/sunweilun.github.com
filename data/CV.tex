@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Professional Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\newsectionwidth{0pt} % Stops section indenting
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND ADDRESS(ES) SECTION
+%----------------------------------------------------------------------------------------
+
+\name{\huge Weilun Sun \\ \\ \\} % Your name at the top
+
+% If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
+
+\address{{\bf Email} \\ sunweilunjwilson@gmail.com}
+
+\address{{\bf Phone} \\ (+86)010-15901519860}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{EDUCATION}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+{\bf \large Bachelor of Science} \hfill 2010--2014(expected) \\ 
+Computer Science \& Technology \\ 
+Tsinghua University, Beijing, China \\
+Overall GPA: 88.3/100
+
+%----------------------------------------------------------------------------------------
+ 
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{RESEARCH EXPERIENCE}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+{\bf \large Anisotropic Spherical Gaussians} \hfill Febuary -- May 2013 \\
+SIGGRAPH Asia 2013 Technical Paper \\
+Graphics \& Geometry Computing Group, TNList \\
+Mentor: Kun Xu
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Involved in the investigation of the form of {\sl Anisotropic Spherical Gaussians} (ASGs for short).
+\item Implemented a {\sl Precomputed Radiance Transfer} rendering program based on theories in the paper.
+\item Proofread derivation of the closed form integral and the convolution expression of ASGs.
+\item Made most of result figures in the paper.
+\end{itemize}
+
+{\bf \large Sketch2Scene} \hfill September 2012 -- January 2013 \\
+SIGGRAPH 2013 Technical Paper \\
+Graphics \& Geometry Computing Group, TNList \\
+Mentor: Kun Xu
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Reproduced a single-model retriever based on paper {\sl Sketch-based Shape Retrieval} of SIGGRAPH 2012.
+\item Implemented part of the GUI of the project system.
+\item Involved in the discussion of the co-retrieval methods in the paper.
+\end{itemize}
+
+{\bf \large Graduation Project of Yan Gu} (second year PhD candidate at CMU now) \hfill March -- May 2012 \\
+Student Research Training Program \\
+Graphics \& Geometry Computing Group, TNList \\
+Mentor: Kun Xu
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Reproduced main algorithm of SIGGRAPH Asia 2009 paper {\sl All-Frequency Rendering of Dynamic, Spatial-Varying Reflectance}.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{PUBLICATIONS}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+\vspace{3pt}
+
+
+\begin{itemize}
+\item ``Anisotropic Spherical Gaussians,"\\
+Proceedings of SIGGRAPH Asia 2013(Accepted)\\
+Kun Xu, Wei-Lun Sun, Zhao Dong, Dan-Yong Zhao, Run-Dong Wu, Shi-Min Hu
+\item ``Sketch2Scene: Sketch-based Co-retrieval and Co-placement of 3D Models,"\\
+Proceedings of SIGGRAPH 2013, ACM Transactions on Graphics 32(4) , 123:1--123:12, 2013.\\
+Kun Xu, Kang Chen, Hong-Bo Fu, Wei-Lun Sun, Shi-Min Hu
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	SMALL PROJECT SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{SMALL PROJECTS}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+{\bf \large Experiment of Clustering Methods} \hfill May 2013 \\
+Course Project of Introduction to Machine Learning
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Replaced k-means clustering used in the paper with different clustering methods including k-medoids and fitting Spherical Gaussians with EM algorithm.
+\item Derived approximate formulas needed to fit Spherical Gaussians with EM algorithm.
+\item Made simple comparisons among different methods by statistical and retrieval results.
+\item Rearranged code written for {\sl Sketch2Scene} and implemented a complete software with GUI.
+\end{itemize}
+
+{\bf \large Simple 3D rigid body physics engine} \hfill January 11th -- January 13th 2013 \\
+Course Project of Computer Graphics Real Time and Animation
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Implemented rigid body collision simulation between sphere and net or fixed objects in any shape with friction under gravity field.
+\item Took spinning into consideration.
+\item Simulated net system using rigid body spheres to represent knots and weightless stiff springs to represent cords.
+\item Created a basketball shooting game using the engine.(Cooperated with my classmate Yi-Ning Liu)
+\end{itemize}
+
+{\bf \large Fantastic Drummer} \hfill October -- December 2012 \\
+Course Project of The Principles of Signal Processing \\
+With Classmate Iat Chong Chan and Yi-Ning Liu
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Leader of the group.
+\item Implemented drum sound extraction and classification algorithm by Matlab.
+\item Developed a game on ios like Taiko Drum Master, but turns a new song into a game level automatically.
+\item Came up with the idea.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{COMPUTER SKILLS}}
+
+\noindent\rule{\textwidth}{2pt}
+
+{\bf Programming Languages:} c/c++, Java, Python, Matlab\\
+{\bf Softwares \& Applications:} OPENCV, OPENGL, GLSL, QT, FLTK, Android, CUDA\\
+{\bf Operating Systems:} Windows, Linux
+
+%----------------------------------------------------------------------------------------
+
+\vspace{0.2in} % Some whitespace between sections
+
+%----------------------------------------------------------------------------------------
+%	HONORS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{HONORS}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+\vspace{-5pt} % Reduce space between section title and contents
+
+\begin{center}
+2nd Place of Tsinghua Talent Show \hfill 2012\\
+\begin{itemize}
+\item Performed street soccer on stage.
+\end{itemize}
+First Prize of Beijing University Physics Olympiads \hfill 2011
+\end{center}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\centerline{INTERESTS}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+Street Soccer, Soccer (Midfielder of CST Department Soccer Team)
+
+%----------------------------------------------------------------------------------------
+
+\end{resume} 
+\end{document}
