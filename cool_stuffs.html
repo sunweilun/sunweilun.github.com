@@ -1,65 +1,164 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
+<title>Simple Personal</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Weilun Sun</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection, tv" />
+<link rel="stylesheet" href="css/style-print.css" type="text/css" media="print" />
 <style type="text/css">
 <!--
-.ABSTRACT {font-size: 16px}
-body {
-	background-color: #E3F1FD;
-	background-image: url(images/background.jpg);
-	background-repeat: repeat;
-}
+.STYLE27 {font-family: "华文行楷"}
+.STYLE41 {font-family: "SketchFlow Print"; font-weight: bold; font-size: 20px; color: #333333; }
+.STYLE42 {font-family: "SketchFlow Print"; font-weight: bold; font-size: 16px; color: #333333; }
 -->
 </style>
-<script type="text/JavaScript">
-<!--
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
 
-
-
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
 }
-//-->
 </script>
 </head>
-
-<body>
-<p><img src="images/cool_stuff_button2.png" width="256" height="48" /></p>
-<p><img src="images/video_title.png" width="256" height="64" /></p>
-<table width="200" border="1">
-  <tr>
-    <td>
-    <p align="center"><a href="http://v.youku.com/v_show/id_XMTI2MjEzNTQ4.html"><img src="images/video/fs1.jpg" width="128" height="96" border="0" /></a></p>      <p align="center">My Freestyle 1 </p></td>
-    <td><p align="center"><a href="http://v.youku.com/v_show/id_XMTM4MzA0Mjc2.html"><img src="images/video/fs2.jpg" width="127" height="95" border="0" /></a></p>
-    <p align="center">My Freestyle 2 </p></td>
-    <td><p align="center"><a href="http://v.youku.com/v_show/id_XMjAwNDkzMTY0.html"><img src="images/video/fs3.jpg" width="128" height="96" border="0" /></a></p>
-    <p align="center">My Freestyle 3 </p></td>
-    <td><p align="center"><a href="http://v.youku.com/v_show/id_XMzUxNjEzNzEy.html"><img src="images/video/fs4.jpg" width="127" height="95" border="0" /></a></p>
-    <p align="center">My Freestyle 4 </p></td>
-    <td><p align="center"><a href="http://v.youku.com/v_show/id_XNjAyMjIyODY0.html"><img src="images/video/fs5.jpg" width="127" height="95" border="0" /></a></p>
-    <p align="center">My Freestyle 5 </p></td>
-    <td><p align="center"><a href="http://v.youku.com/v_show/id_XMTkzMzM1Mzcy.html"><img src="images/video/M4A1 model.jpg" width="127" height="95" border="0" /></a></p>
-    <p align="center">M4A1</p></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<p><img src="images/project_title.png" width="256" height="64" /></p>
-<table width="1070" border="1">
-  <tr>
-    <td width="160"><a href="data/small project/RetrieverUI.rar"><img src="images/project/retriever.png" width="128" height="128" border="0" /></a></td>
-    <td width="894">A retriever UI based on SIGGRAPH 2012 paper <a href="http://cybertron.cg.tu-berlin.de/eitz/projects/sbsr/"><em>Sketch-based Shape Retrieval</em></a>.(Click <a href="data/small project/RetrieverUI.rar">here</a> to download executable)</td>
-  </tr>
-  <tr>
-    <td><a href="data/small project/shooter.rar"><img src="images/project/shooter.PNG" width="160" height="100" border="0" /></a></td>
-    <td>A basketball shooting game, based on a simple physics engine I developed. (Click <a href="data/small project/shooter.rar">here</a> to download executable)</td>
-  </tr>
-</table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<body onload="MM_CheckFlashVersion('7,0,0,0','本页内容需要使用较新的 Macromedia Flash Player 版本。是否现在下载它？');">
+<div id="wrapper">
+  <div class="title">
+    <div class="title-top">
+      <div class="title-left">
+        <div class="title-right">
+          <div class="title-bottom">
+            <div class="title-top-left">
+              <div class="title-bottom-left">
+                <div class="title-top-right">
+                  <div class="title-bottom-right">
+                    <h1><a href="http://all-free-download.com/free-website-templates/"><span>WEILUN SUN (<span class="STYLE27">孙伟伦</span>)</span></a></h1>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="noscreen" />
+  <div class="content">
+    <div class="column-left">
+      <h3>MENU</h3>
+      <a href="#skip-menu" class="hidden">Skip menu</a>
+      <ul class="menu">
+        <li><a href="index.html" class="menu">Home</a></li>
+        <li><a href="cool_stuffs.html" class="active">Cool Stuffs </a></li>
+      </ul>
+    </div>
+    <div id="skip-menu"></div>
+    <div class="column-right">
+      <div class="box">
+        <div class="box-top"></div>
+        <div class="box-in">
+          <h2><img src="images/arrow.png" alt="" width="32" height="32" align="absmiddle" />Videos</h2>
+          <table width="866" border="0">
+            <tr>
+              <td width="429"><p>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="400" height="300" id="FLVPlayer">
+                  <param name="movie" value="FLVPlayer_Progressive.swf" />
+                  <param name="salign" value="lt" />
+                  <param name="quality" value="high" />
+                  <param name="scale" value="noscale" />
+                  <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle1&autoPlay=false&autoRewind=false" />
+                  <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle1&autoPlay=false&autoRewind=false" quality="high" scale="noscale" width="400" height="300" name="FLVPlayer" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                  
+</object>
+              </p>
+              <p align="center" class="STYLE42">My Freestyle 1 </p></td>
+              <td width="427"><p>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="400" height="300" id="FLVPlayer1">
+                  <param name="movie" value="FLVPlayer_Progressive.swf" />
+                  <param name="salign" value="lt" />
+                  <param name="quality" value="high" />
+                  <param name="scale" value="noscale" />
+                  <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle2&autoPlay=false&autoRewind=false" />
+                  <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle2&autoPlay=false&autoRewind=false" quality="high" scale="noscale" width="400" height="300" name="FLVPlayer1" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                  
+</object>
+              </p>
+              <p align="center"><span class="STYLE42">My Freestyle 2 </span></p></td>
+            </tr>
+            <tr>
+              <td><p>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="400" height="300" id="FLVPlayer2">
+                  <param name="movie" value="FLVPlayer_Progressive.swf" />
+                  <param name="salign" value="lt" />
+                  <param name="quality" value="high" />
+                  <param name="scale" value="noscale" />
+                  <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle3&autoPlay=false&autoRewind=false" />
+                  <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle3&autoPlay=false&autoRewind=false" quality="high" scale="noscale" width="400" height="300" name="FLVPlayer2" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                  
+</object>
+              </p>
+              <p align="center"><span class="STYLE42">My Freestyle 3</span> </p></td>
+              <td><p>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="400" height="300" id="FLVPlayer3">
+                  <param name="movie" value="FLVPlayer_Progressive.swf" />
+                  <param name="salign" value="lt" />
+                  <param name="quality" value="high" />
+                  <param name="scale" value="noscale" />
+                  <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle4&autoPlay=false&autoRewind=false" />
+                  <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle4&autoPlay=false&autoRewind=false" quality="high" scale="noscale" width="400" height="300" name="FLVPlayer3" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                  
+</object>
+              </p>
+              <p align="center"><span class="STYLE42">My Freestyle 4 </span> </p></td>
+            </tr>
+            <tr>
+              <td><p>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="400" height="300" id="FLVPlayer4">
+                  <param name="movie" value="FLVPlayer_Progressive.swf" />
+                  <param name="salign" value="lt" />
+                  <param name="quality" value="high" />
+                  <param name="scale" value="noscale" />
+                  <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle5&autoPlay=false&autoRewind=false" />
+                  <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=data/video/MyFreestyle5&autoPlay=false&autoRewind=false" quality="high" scale="noscale" width="400" height="300" name="FLVPlayer4" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                  
+</object>
+              </p>
+              <p align="center"><span class="STYLE42">My Freestyle 5 </span> </p></td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+          <h2>&nbsp;</h2>
+        </div>
+      </div>
+      <div class="box-bottom">
+        <hr class="noscreen" />
+      </div>
+    </div>
+    <div class="cleaner">&nbsp;</div>
+  </div>
+</div>
+<div align=center></div>
 </body>
-
 </html>
