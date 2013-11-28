@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.29)  18 NOV 2013 17:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.29)  28 NOV 2013 09:49
 entering extended mode
-**E:/git/Homepage/data/CV.tex
-(E:/git/Homepage/data/CV.tex
+**E:/快盘/4app/Finalized*Materials/CV/CV.tex
+("E:/快盘/4app/Finalized Materials/CV/CV.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (C:\CTEX\MiKTeX\tex\latex\resume\res.cls
@@ -223,28 +223,29 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [1
 
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 228.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 228.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
  4755 strings out of 495354
- 69129 string characters out of 3183859
+ 69180 string characters out of 3183859
  152145 words of memory out of 3000000
  7935 multiletter control sequences out of 15000+200000
  5381 words of font info for 20 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,8n,21p,226b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,8n,21p,243b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/
-CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on CV.pdf (2 pages, 102226 bytes).
+nts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/CTEX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb>
+Output written on CV.pdf (2 pages, 110533 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
