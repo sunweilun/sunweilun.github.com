@@ -38,7 +38,7 @@
 
 % If you don't want one of the addresses, simply remove all the text in the first or second \address{} bracket
 
-\address{{\bf Email} \\ sunweilunjwilson@gmail.com}
+\address{{\bf Email} \\ sunweilunjwilson@berkeley.edu}
 
 \address{{\bf Homepage} \\ \url{http://sunweilun.github.com}}
 
@@ -55,13 +55,8 @@
 \noindent\rule{\textwidth}{2pt}
 
 {\bf \large Doctor of Philosophy} \hfill 2014 -- present \\ 
-<<<<<<< HEAD
 EECS \\ 
-UC Berkeley, California, USA \\
-=======
-Computer Graphics, EECS \\ 
 Visual Computing Lab, UC Berkeley, California, USA \\
->>>>>>> 678e2643523dba8e8a69c4e55c928ee07b32ff44
 Advisor:  \href{http://cseweb.ucsd.edu/~ravir/}{Prof. Ravi Ramamoorthi}
 
 {\bf \large Bachelor of Engineering} \hfill 2010 -- 2014 \\ 
@@ -70,6 +65,36 @@ Tsinghua University, Beijing, China \\
 Overall GPA: 88/100   \hfill Official Overall Ranking: \#21 out of 100 students
 
 %----------------------------------------------------------------------------------------
+
+\vspace{0.1in} % Some whitespace between sections
+
+\section{\centerline{Research Relevant Courses}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item CS289A, Introduction to Machine Learning, UC Berkeley \hfill Fall, 2015
+\item MATH228A, Numerical Solution of ODEs, UC Berkeley \hfill Fall, 2015
+\item CS274, Computational Geometry, UC Berkeley \hfill Spring, 2015
+\item MATH228B, Numerical Solution of PDEs, UC Berkeley \hfill Spring, 2015
+\item CS284A, Computer Graphics, UC Berkeley \hfill Fall, 2014
+\item CS294-26 Computational Photography and Image Manipulation, UC Berkeley \hfill Fall, 2014
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------------------------------------------
+ 
+\vspace{0.1in} % Some whitespace between sections
+
+\section{\centerline{Teaching}} 
+
+\noindent\rule{\textwidth}{2pt}
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Teaching assistant for CS194-26, UC Berkeley \hfill Fall, 2015
+\end{itemize}
+
  
 \vspace{0.1in} % Some whitespace between sections
 
@@ -81,10 +106,21 @@ Overall GPA: 88/100   \hfill Official Overall Ranking: \#21 out of 100 students
 
 \noindent\rule{\textwidth}{2pt}
 
+{\bf \large Interactive Detailed Cutting of Thin Sheets} \hfill August, 2014 -- January, 2015 \\
+To appear in Motion in Games 2015 \\
+VCL, UC Berkeley \\
+Advisor: \href{http://obrien.berkeley.edu/Prof._James_F._OBrien/Home.html}{Prof. James F. O'Brien}
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Implemented cutting on triangle meshes.
+\item Implemented non-manifold grid shape function interpolation on triangle meshes.
+\end{itemize}
+
+
 {\bf \large Anisotropic Spherical Gaussians} \hfill Febuary -- May, 2013 \\
 SIGGRAPH Asia 2013 Technical Paper \\
 Graphics \& Geometry Computing Group, TNList, Tsinghua University \\
-Mentor: \href{http://cg.cs.tsinghua.edu.cn/people/~kun/}{Dr. Kun Xu}
+Advisor: \href{http://cg.cs.tsinghua.edu.cn/people/~kun/}{Dr. Kun Xu}
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
 \item Investigated the form of Anisotropic Spherical Gaussian (ASG for short).
@@ -94,13 +130,12 @@ Mentor: \href{http://cg.cs.tsinghua.edu.cn/people/~kun/}{Dr. Kun Xu}
 {\bf \large Sketch2Scene} \hfill September, 2012 -- January, 2013 \\
 SIGGRAPH 2013 Technical Paper \\
 Graphics \& Geometry Computing Group, TNList, Tsinghua University \\
-Mentor: \href{http://cg.cs.tsinghua.edu.cn/people/~kun/}{Dr. Kun Xu}
+Advisor: \href{http://cg.cs.tsinghua.edu.cn/people/~kun/}{Dr. Kun Xu}
 
 \begin{itemize} \itemsep -2pt % Reduce space between items
 \item Reproduced a single-model retriever based on paper
 \href{http://cybertron.cg.tu-berlin.de/eitz/pdf/2012_siggraph_sbsr.pdf}{\sl Sketch-Based Shape Retrieval}.
 \item Implemented part of the GUI of the project system.
-\item Provided the co-arrangement algorithm in the paper.
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
@@ -143,58 +178,6 @@ Proceedings of SIGGRAPH 2013, ACM Transactions on Graphics 32(4) , 123:1--123:12
 \noindent\rule{\textwidth}{2pt}
 
 SIGGRAPH Asia 2013 Technical Paper for {\sl Anisotropic Spherical Gaussians} \hfill November 22\textsuperscript{nd}, 2013
-SIGGRAPH Asia 2013 Fastforward for {\sl Anisotropic Spherical Gaussians} \hfill November 19\textsuperscript{th}, 2013
-
-%----------------------------------------------------------------------------------------
-
-\vspace{0.1in} % Some whitespace between sections
-
-%----------------------------------------------------------------------------------------
-%	SMALL PROJECT SECTION
-%----------------------------------------------------------------------------------------
-
-\section{\centerline{COURSE PROJECTS}} 
-
-\noindent\rule{\textwidth}{2pt}
-
-{\bf \large Out-of-Core GPU Path Tracer} \hfill November, 2014 \\
-Course Project of {\sl Advanced Topics in Computer Systems(CS262a)}, UC Berkeley
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Implemented path tracing on GPU from scratch.
-\item Supported rendering huge scenes that can not fit into GPU memory by blocking rays querying out of core geometry temporarily.
-\item Implemented a GPU memory management strategy specialized for path tracing.
-\end{itemize}
-
-\iffalse
-
-{\bf \large Experiment of Clustering Methods} \hfill May, 2013 \\
-Course Project of {\sl Introduction to Machine Learning}, Tsinghua University
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Replaced k-means clustering used in paper \href{http://cybertron.cg.tu-berlin.de/eitz/pdf/2012_siggraph_sbsr.pdf}{\sl Sketch-Based Shape Retrieval}
-with different clustering methods including k-medoids and fitting Spherical Gaussians with EM algorithm.
-\item Derived approximate formula needed to fit Spherical Gaussians with EM algorithm.
-\item Made simple comparisons among different methods by statistics and retrieval results.
-\item Rearranged code written for \href{http://sweb.cityu.edu.hk/hongbofu/projects/sketch2scene_sig13/}{\sl Sketch2Scene} and implemented a complete software with GUI.
-\end{itemize}
-
-{\bf \large Basketball Shooting Game} \hfill January 11\textsuperscript{th} -- January 13\textsuperscript{th}, 2013 \\
-Course Project of {\sl Computer Graphics Real Time and Animation}, Tsinghua University
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Implemented rigid body collision simulation between a sphere and fixed objects in any shape with friction under gravity field.
-\item Simulated hoop net using simple mass-spring system.
-\item Created a complete basketball shooting game.(Cooperated with my classmate Yi-Ning Liu)
-\end{itemize}
-
-{\bf \large Fantastic Drummer} \hfill October -- December, 2012 \\
-Course Project of {\sl Principles of Signal Processing}, Tsinghua University
-\begin{itemize} \itemsep -2pt % Reduce space between items
-\item Leader of our group.
-\item Implemented drum sound extraction and classification algorithm by Matlab.\\ (Cooperated with my classmate Iat-Chong Chan)
-\item Implemented a game like Taiko no Tatsujin on ios, but can turn any input song with percussion instruments into a playable game level.(Cooperated with my classmate Yi-Ning Liu)
-\item Came up with the idea.
-\end{itemize}
-
-\fi
 
 %----------------------------------------------------------------------------------------
 
